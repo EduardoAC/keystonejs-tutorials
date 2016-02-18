@@ -13,6 +13,7 @@ developers that want to use this amazing framework.
 
 ## Starting point from all the tutorials
 I will put together some guidelines that need to be implemented in each tutorial
+
 1. All the tutorial will start using [the getting started from KeystoneJS](http://keystonejs.com/getting-started).
 2. One commit for step with "STEP {number}: ..." and the information in list of
 each change that will help us to see the differences using github tools.
