@@ -34,6 +34,7 @@ For this tutorial I decided to use the next configuration when you execute [gett
 
 After you answered these easy question, you will be able to execute the command
 'node keystone'
+
 **REMEMBER your mongod service have to be up and running**
 
 ##STEP 1: DEFINE COMMENT MODEL AND RELATIONSHIPS
@@ -61,7 +62,8 @@ errors, an automated battery of tests can save you a lot to time in the future.
 This is a really easy task in KeystoneJS. Add 'post-comments' to your navigation
 bar as you can see in [STEP 2 commit](https://github.com/EduardoAC/keystonejs-tutorials/commit/71dba619d8a482edd702d83d6f45f3a7e2b3e16c) and you are ready to create comments for your current users and posts.
 
-**REMEMBER: RESTART NODE KEYSTONE TO SEE THE NEW CONFIGURATION"
+**REMEMBER: RESTART NODE KEYSTONE TO SEE THE NEW CONFIGURATION**
+
 **NOTE: THIS STEP IS SUBJECT TO CHANGE SOON WITH THE NEW REACT RELEASE OF THE ADMIN UI, I WILL KEEP YOU POSTED**
 
 ##STEP 3: CONFIG POST ROUTE TO ALLOW COMMENTS IN THE CLIENT UI.
