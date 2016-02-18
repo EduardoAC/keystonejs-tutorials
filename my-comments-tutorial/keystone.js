@@ -13,13 +13,13 @@ keystone.init({
 
 	'name': 'My comments tutorial',
 	'brand': 'My comments tutorial',
-	
+
 	'sass': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'jade',
-	
+
 	'auto update': true,
 	'session': true,
 	'auth': true,
@@ -49,7 +49,7 @@ keystone.set('routes', require('./routes'));
 // Configure the navigation bar in Keystone's Admin UI
 
 keystone.set('nav', {
-	'posts': ['posts', 'post-categories'],
+	'posts': ['posts', 'post-comments', 'post-categories'],
 	'users': 'users'
 });
 
