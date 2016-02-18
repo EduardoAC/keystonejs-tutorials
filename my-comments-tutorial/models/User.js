@@ -28,6 +28,14 @@ User.schema.virtual('canAccessKeystone').get(function() {
 
 User.relationship({ ref: 'Post', path: 'posts', refPath: 'author' });
 
+/**
+ * Helpers
+ */
+  
+ User.schema.methods.wasActive = function () {
+ 	this.lastActiveOn = new Date();
+ 	return this;
+ };
 
 /**
  * Registration

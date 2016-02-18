@@ -28,5 +28,8 @@ Post.schema.virtual('content.full').get(function() {
 	return this.content.extended || this.content.brief;
 });
 
+//Every post can have N comments
+Post.relationship({ path: 'comments', ref: 'PostComment', refPath: 'post' });
+
 Post.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
 Post.register();
